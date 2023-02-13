@@ -1,0 +1,73 @@
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    background-color: aqua;
+}
+.NavBar .MobileNavigation {
+    display: none;
+}
+
+
+@media (max-width: 990px){
+    
+    .NavBar .Navigation {
+        display: none;
+    }
+    .NavLinks {
+        right: 0;
+    }
+    
+    .NavBar .MobileNavigation {
+        display: flex;
+        align-items: center;
+        background-color:white;
+        height: 80px;
+      background-color: blue;
+      /* right: 0; */
+      
+    }
+    .NavBar .MobileNavigation .Humburger {
+        position: absolute;
+        right: 5%;
+        cursor: pointer;
+    }
+    .NavBar nav ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 50%;
+        background-color: white;
+        border-top: 2px solid green;
+        z-index: 1;
+    }
+    .NavBar nav ul li {
+        padding-left: 15%;
+   
+       
+    }
+    .NavBar nav ul li a {
+        color: black;
+        list-style: none;
+        text-decoration: none;
+
+    } 
+    .NavBar {
+        opacity: 1;
+    }
+    .NavBar a:hover {
+        border-bottom: none;
+        color: gray;
+      
+    }
+
+}
+
+
+
+

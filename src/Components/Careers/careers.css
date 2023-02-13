@@ -1,0 +1,67 @@
+.careers {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    position: relative;
+    background-color: #eff2f5;
+}
+.careersContainer  {
+    text-align: center;
+    }
+.aboutContainer > h1 {
+  font-size: 42px;
+  font-weight: 400;
+}
+.careerstitle {
+    font-size:40px;
+    font-weight: 700;
+    letter-spacing: 0.1ch;
+    color: #00A551;
+}
+
+.careersaboutDescription > p {
+    letter-spacing: 0.1ch;
+    padding:5px 15px;
+   
+}
+
+.careersImage {
+    padding: 30px 0;
+}
+
+.Images >img {
+    width: 100%;
+    height:auto ;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    align-items: center;
+
+}
+
+@media (min-width: 990px) {
+    .careersaboutDescription > p {
+        padding: 0 220px;
+       
+    }
+    .careersImage{
+        display: flex;
+        justify-content: space-between;
+    }
+    /* .aboutImage{
+        max-height: 100px;
+        width: 50%;
+        padding: 5px 25px;
+    }
+    .aboutImage >img {
+       min-width: 100px;
+
+       
+    } */
+
+
+}

@@ -1,0 +1,15 @@
+.home {
+   
+}
+
+.d-block {
+    /* object-fit: contain; */
+    
+     height: 700px; 
+     max-width: 100%;
+    background-position: center center;
+    background-size: contain;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    
+}

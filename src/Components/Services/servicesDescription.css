@@ -1,0 +1,52 @@
+.ServicesDescription{
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}
+
+ .parent, .cover{
+    width: 100%;
+    height: 250px;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+  }
+  
+  .parent{
+    padding-top: 40px;
+    position: relative;
+    align-items: center;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  }
+  .parent >img {
+    padding-bottom: 20px;
+  }
+
+  .servicesTitle {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .cover{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    text-align: left;
+    padding: 20px 20px 0;
+
+  }
+  
+  .cover:hover{
+    z-index: 1;
+    opacity: 100;
+    height: auto;
+    border-bottom: 1px solid gray;
+    
+  }
+  
+  .coverP1 {
+   font-weight: 700;
+  }
+  .coverP2 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+  }

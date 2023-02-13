@@ -1,0 +1,46 @@
+
+  
+    .header .header__options {
+    
+        justify-content: flex-end;
+        padding-top: 20px ;
+        margin-right: 40px;
+        /* right: 4%; */
+    
+      }
+    
+
+       .header__options ul li {
+        text-decoration: none;
+        color: black;
+        font-size: 1rem;
+        font-weight: 500;
+        display: inline-block;
+        padding: 5px 5px;
+        margin: 0 10px;
+        cursor: pointer;
+        list-style: none;
+       
+      }
+      
+     .header__options ul li a {
+        color: black;
+        list-style: none;
+        text-decoration: none;
+      }
+
+      /* @media only screen and (min-width: 768px) {
+        .header__options {
+            display: flex;
+          
+          }
+      }  
+      */
+
+      @media (max-width: 768px) {
+
+
+      }
+      
+
+      

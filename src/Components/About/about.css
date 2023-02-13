@@ -1,0 +1,65 @@
+.about {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+}
+
+.aboutContainer > h1 {
+  font-size: 42px;
+  font-weight: 400;
+}
+.title {
+    font-size:38px;
+    font-weight: 700;
+    letter-spacing: 0.1ch;
+    color: #00A551;
+}
+
+.aboutDescription > p {
+    letter-spacing: 0.1ch;
+    padding: 5px;
+   
+}
+
+.aboutImage >img {
+    width: 100%;
+    height:auto ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #FAFAFA;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    align-items: center;
+
+}
+
+@media (min-width: 990px) {
+    .about {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+
+
+    }
+    .aboutContainer{
+        width: 50%;
+        height: auto;
+       padding: 5px 25px;
+       
+    }
+    .aboutImage{
+        max-height: 100px;
+        width: 50%;
+        padding: 5px 25px;
+    }
+    .aboutImage >img {
+       min-width: 100px;
+
+       
+    }
+
+
+}
