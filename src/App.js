@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Home from './Components/Home/Home';
 import NavBar from './Components/NavBar/NavBar';
@@ -14,6 +13,10 @@ import About from './Components/About/About';
 import Clients from './Components/Clients/Clients';
 import Services from './Components/Services/Services';
 import Careers from './Components/Careers/Careers';
+import ContactUs from './Components/ContactUs/ContactUs';
+import WithUs from './Components/WithUs/WithUs';
+
+
 
 function App() {
   return (
@@ -24,13 +27,17 @@ function App() {
     <Routes>
     
       <Route path="/" exact element={<Home />}></Route>
-      <Route path="about" exact element={<About/>}></Route>
-       <Route path="clients" element={<Clients/>}></Route>
+      {/* <Route path="about" exact element={<About/>}></Route> */}
+       {/* <Route path="clients" element={<Clients/>}></Route> */}
       </Routes>
+      
       <About />
       <Clients/>
       <Services />
       <Careers />
+      <WithUs />
+      <ContactUs />
+     
     </div>
     
     </Router>

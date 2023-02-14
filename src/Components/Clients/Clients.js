@@ -6,7 +6,7 @@ function Clients() {
     <div className='clientsContainer'>
         <div className='clientsTitlewrapper'>
             <h1>We Have Multiple Clients </h1>
-            <p>Across Verticals Who Look to Us to Deliver Best-in-class Industry Solutions.</p>
+            <h2>Across Verticals Who Look to Us to Deliver Best-in-class Industry Solutions.</h2>
         </div>
       <ClientsLogo />
 

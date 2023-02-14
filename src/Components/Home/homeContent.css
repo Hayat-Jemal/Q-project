@@ -5,8 +5,8 @@
     padding: 20px;
     background-color: rgba(255,252,252,0.66);
     border-radius: 4px 4px 4px 4px;
-    margin-right: 300px;
-    margin-bottom: 100px;
+    /* margin-right: 300px; */
+    /* margin-bottom: 100px; */
 }
 
 .homeContent > h1 {
@@ -67,9 +67,9 @@
 @media (min-width: 990px) {
 .homeContent {
   width: 70.8%;
-  margin-right: 300px;
-  margin-bottom: 150px;
-  z-index: inherit;
+  /* margin-right: 300px; */
+  /* margin-bottom: 150px; */
+  /* z-index: inherit; */
 /* background: transparent;  */
 }
 

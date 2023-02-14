@@ -1,0 +1,108 @@
+.withUs {
+    width: 100%;
+    height: auto;
+    padding: 35px;
+    position: relative;
+    background-color: #eff2f5;
+    align-items: left;
+}
+
+.withUs > h1 {
+  font-size: 42px;
+  font-weight: 400;
+}
+.withUs >h2 {
+    font-size:40px;
+    font-weight: 700;
+    letter-spacing: 0.1ch;
+    color: #00A551;
+}
+
+.withUsContainer  {
+  
+}
+
+.withUsTitle {
+    font-size: 1.2em;
+    font-weight: 700;
+
+ }
+
+.withUsDescWrapper > p {
+    letter-spacing: 0.1ch;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+.withUsDescWrapper {
+    padding: 10px 0;
+}
+
+.withUsDescWrapper > img {
+    padding: 10px 10px 20px  ;
+
+}
+.withUsImage {
+    max-height: 600px;
+}
+.withUsImage > img {
+    padding: 30px 0;
+    width: 100%;
+    height:100% ;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    align-items: center;
+
+} 
+@media (min-width:720px) {
+    .withUsDescWrapper {
+        padding: 0 90px;
+    }
+}
+
+@media (min-width: 990px) {
+
+    .withUsall {
+        display: flex;
+        justify-content: space-between;
+       
+    }
+    .withUsContainer {
+      width: 50%;
+    }
+   
+    .withUsImage {
+        width: 50%;
+    }
+
+    .withUsDescWrapper {
+        padding: 0 30px;
+    }
+
+
+    /* .withUsDescWrapper > p {
+        padding: 0 220px;
+       
+    }
+    .careersImage{
+        display: flex;
+        justify-content: space-between;
+    } */
+    /* .aboutImage{
+        max-height: 100px;
+        width: 50%;
+        padding: 5px 25px;
+    }
+    .aboutImage >img {
+       min-width: 100px;
+
+       
+    } */
+
+
+}
