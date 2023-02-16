@@ -44,6 +44,7 @@
 }
 .withUsImage {
     max-height: 600px;
+    object-fit: contain;
 }
 .withUsImage > img {
     padding: 30px 0;
@@ -83,6 +84,14 @@
     .withUsDescWrapper {
         padding: 0 30px;
     }
+    .withUs > h1 {
+        padding-left: 150px;
+       
+      }
+      .withUs >h2 {
+        
+        padding-left: 150px;
+      }
 
 
     /* .withUsDescWrapper > p {

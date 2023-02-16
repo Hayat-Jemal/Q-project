@@ -32,7 +32,7 @@ function App() {
       </Routes>
       
       <About />
-      <Clients/>
+      {/* <Clients/> */}
       <Services />
       <Careers />
       <WithUs />
