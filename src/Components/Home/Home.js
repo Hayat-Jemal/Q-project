@@ -9,7 +9,7 @@ import HomeContent from './HomeContent'
 function Home() {
     return (
     <div className='home'>
-        <Carousel pause={false} indicators={false}>
+        <Carousel pause={false} indicators={false} fade={true}>
           <Carousel.Item interval={4000} >
             <img  
               className="d-block w-100"
@@ -22,7 +22,7 @@ function Home() {
                   title = "A Global Powerhouse in Digital Transformation & Cloud Services." 
                   description = "Global delivery footprint now spans North America, Ethiopia & India"
                   href = "/about"
-                  button = "Read More"
+                  button = "1Read More"
                   />
             </Carousel.Caption>
           </Carousel.Item>
@@ -39,7 +39,7 @@ function Home() {
                   title = "A Global Powerhouse in Digital Transformation & Cloud Services." 
                   description = "Global delivery footprint now spans North America, Ethiopia & India"
                   href = "/about"
-                  button = "Read More"
+                  button = "2Read More"
                   />
             </Carousel.Caption>
           </Carousel.Item>
@@ -55,7 +55,7 @@ function Home() {
                   title = "A Global Powerhouse in Digital Transformation & Cloud Services." 
                   description = "Global delivery footprint now spans North America, Ethiopia & India"
                   href = "/about"
-                  button = "Read More"
+                  button = "3Read More"
                   />
             </Carousel.Caption>
           </Carousel.Item>

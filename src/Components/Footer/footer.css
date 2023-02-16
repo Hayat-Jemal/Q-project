@@ -1,0 +1,22 @@
+
+.footer {
+margin: 20px 20px;
+}
+.footerList {
+    display: flex;
+    flex-direction: column;
+}
+.footerList {
+    margin:20px 20px ;
+}
+
+@media (min-width: 990px) {
+.footerConainer {
+    display: flex;
+    justify-content: space-around;
+}
+.footerList {
+    display: flex;
+    flex-direction: column;
+}
+}    

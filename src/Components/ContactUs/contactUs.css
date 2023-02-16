@@ -1,11 +1,21 @@
-/* .container {
-    padding: 0 150px ;
-} */
 
+.container >h2 {
+    font-size: 40px;
+}
+.mb-3{
+    font-size: 25px;
+}
+.btn {
+    background-color: #00A551 !important;
+    border: #00A551 !important;
+}
+.btn:hover {
+    background-color: rgb(193, 32, 32) !important;
+}
 
 @media (min-width: 990px) {
     .container {
-        padding: 40px 200px ;
+        padding: 0px 150px !important;
     }
     /* .container >h2 {
         margin-left: ;

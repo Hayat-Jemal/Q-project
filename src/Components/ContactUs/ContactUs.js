@@ -61,6 +61,8 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import "./contactUs.css"
+import image1 from "../Images/contact2.jpg"
+import Footer from '../Footer/Footer';
 
 export const ContactUs = () => {
   const form = useRef();
@@ -78,8 +80,11 @@ export const ContactUs = () => {
   };
 
   return (
-  <div className="container mt-5" >
-    <h2 className="mb-3">React Contact Form Component Example</h2>
+  
+   <div style={{ backgroundImage:`url(${image1})` ,backgroundRepeat:"no-repeat",backgroundSize:"cover",  opacity: "0.8", 
+    }}>
+      <div className="container mt-5" >
+    <h2 className="mb-3">Contact us</h2>
     <form ref={form} onSubmit={sendEmail}>
     <div className="mb-3">
       <label className="form-label">Name</label>
@@ -97,6 +102,8 @@ export const ContactUs = () => {
       <input className="btn btn-danger" type="submit" value="Send" />
       </div>
     </form>
+    </div>
+    <Footer />
   </div>
   );
 };
