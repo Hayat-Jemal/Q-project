@@ -20,27 +20,26 @@ import WithUs from './Components/WithUs/WithUs';
 
 function App() {
   return (
-    <Router>
+    
     <div className="App">
-    <NavBar />
+    {/* <NavBar /> */}
     {/* <Home/> */}
     <Routes>
     
-      <Route path="/" exact element={<Home />}></Route>
-      {/* <Route path="about" exact element={<About/>}></Route> */}
-       {/* <Route path="clients" element={<Clients/>}></Route> */}
+      <Route path="/" exact element={<Home />} />
+      <Route path="about" exact element={<About></About>}></Route>
+       <Route path="/clients" exact element={<Clients/>}/>
+       <Route path="/services" exact element={<Services/>}/>
       </Routes>
       
-      <About />
+      {/* <About /> */}
       {/* <Clients/> */}
-      <Services />
+      {/* <Services /> */}
       <Careers />
       <WithUs />
       <ContactUs />
      
     </div>
-    
-    </Router>
   );
 }
 
