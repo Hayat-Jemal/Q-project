@@ -8,8 +8,10 @@ function HomeContent(props) {
         <h1>{props.hint}</h1>
         <p className='title'>{props.title}</p>
         <p className='description'>{props.description}</p>
-        <Link to={props.href}>
+        {/* <Link to={props.href}>
             <p className='link'>{props.button}</p>
+        </Link> */}
+        <Link to={props.href}>{props.button}
         </Link>
        {/* <a href={props.href}>{props.button}</a> */}
     </div>

@@ -1,9 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "./footer.css"
-import {BsFacebook} from 'react-icons/bs'
+import {ImFacebook2} from 'react-icons/im'
 import {FaInstagramSquare} from 'react-icons/fa'
 import {BsLinkedin} from 'react-icons/bs'
+import {FaTelegramPlane} from 'react-icons/fa'
+
 function Footer() {
   return (
     <div className='footer'>
@@ -22,18 +24,24 @@ function Footer() {
             <Link to="contactUs"> Contact Us </Link>
             <Link to="contactUs"> Contact Us </Link>
         </div>
-        
+
         <div className='footerList'>
             <p>Follow us on:</p>
-            <Link to="careers"> Careers </Link>
-            <Link to="contactUs"> Contact Us </Link>
-            <Link to="contactUs"> Contact Us </Link>
+            <Link to="careers"> Linkedin </Link>
+            <Link to="contactUs"> Facebook </Link>
+            <Link to="contactUs"> Telegram</Link>
+            <Link to="contactUs"> Instgram</Link>
         </div>
         </div>
         <div className='footerIcons'>
-            <BsLinkedin />
-            <BsFacebook />
-            <FaInstagramSquare />
+            <Link to="careers"><BsLinkedin  className='icon'/></Link>
+            <Link to="contactUs"><ImFacebook2  className='icon'/></Link>
+            <Link to="contactUs"><FaTelegramPlane className='icon'/></Link>
+            <Link to="contactUs"><FaInstagramSquare className='icon'/></Link>
+           
+           
+          
+            
     
         </div>
         <div className='footerCopyright'>

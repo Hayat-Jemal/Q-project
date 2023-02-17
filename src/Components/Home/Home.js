@@ -9,8 +9,8 @@ import HomeContent from './HomeContent'
 function Home() {
     return (
     <div className='home'>
-        <Carousel pause={false} indicators={false} fade={true}>
-          <Carousel.Item interval={4000} >
+        <Carousel pause={false} indicators={false} fade={true}  style={{zIndex:"-1"}}>
+          <Carousel.Item interval={4000}>
             <img  
               className="d-block w-100"
               src={pic1}
@@ -22,7 +22,7 @@ function Home() {
                   title = "A Global Powerhouse in Digital Transformation & Cloud Services." 
                   description = "Global delivery footprint now spans North America, Ethiopia & India"
                   href = "/about"
-                  button = "1Read More"
+                  button = "Read More"
                   />
             </Carousel.Caption>
           </Carousel.Item>
