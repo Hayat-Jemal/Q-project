@@ -6,7 +6,7 @@ import "./withUs.css"
 
 function WithUs() {
   return (
-    <div className='withUs'>
+    <div className='withUs' id="withus">
     <h1>What You Get from</h1>
     <h2 >Working With Us</h2>
     <div className='withUsall'>

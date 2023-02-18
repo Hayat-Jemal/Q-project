@@ -59,6 +59,7 @@
 
 
 import React, { useRef } from 'react';
+import { useNavigate } from "react-router-dom";
 import emailjs from '@emailjs/browser';
 import "./contactUs.css"
 import image1 from "../Images/contact2.jpg"
@@ -66,23 +67,23 @@ import Footer from '../Footer/Footer';
 
 export const ContactUs = () => {
   const form = useRef();
-
+  const navigate = useNavigate()
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs.sendForm('service_byj0u6h', 'template_52paw6b', form.current, '6E7WaAyFQU3juMfTJ')
       .then((result) => {
-          console.log(result.text);
-          console.log("message sent")
+       // console.log(result.text)
       }, (error) => {
-          console.log(error.text);
-      });
+          // console.log(error.text);
+      },);
+      navigate("/");
   };
 
   return (
   
-   <div style={{ backgroundImage:`url(${image1})` ,backgroundRepeat:"no-repeat",backgroundSize:"cover",  opacity: "0.8", 
-    }}>
+   <div className='contactUs' style={{ backgroundImage:`url(${image1})` ,backgroundRepeat:"no-repeat",backgroundSize:"cover",  opacity: "0.8", 
+    }} id="contactus">
       <div className="container mt-5" >
     <h2 className="mb-3">Contact us</h2>
     <form ref={form} onSubmit={sendEmail}>

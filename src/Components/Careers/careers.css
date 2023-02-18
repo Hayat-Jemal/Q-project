@@ -1,12 +1,11 @@
 .careers {
     width: 100%;
     height: auto;
-    /* padding: 30px; */
+    padding-top: 60px;
     position: relative;
-    /* background-color: #eff2f5; */
 }
 .careersContainer  {
-     padding: 30px;
+     padding: 30px 30px 10px;
     text-align: center;
     background-color: #eff2f5;
     }

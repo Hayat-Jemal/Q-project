@@ -3,8 +3,8 @@ import "./about.css"
 import image1 from "../Images/WhatsApp Image3.jpg"
 function About() {
   return (
-    <div className='about'>
-        <div className='aboutContainer'>
+    <div className='about' id="about" style={{paddingTop:"80px"}}>
+        <div className='aboutContainer' >
         <h1>What Makes Us</h1>
         <p className='title'>Different?</p>
         <div className='aboutDescription'>

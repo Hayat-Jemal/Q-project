@@ -3,7 +3,7 @@ import "./careers.css"
 import image1 from "../Images/WhatsApp Image3.jpg"
 function Careers() {
   return (
-    <div className='careers'>
+    <div className='careers' id="careers">
     <div className='careersContainer'>
     <h1>Take a Look at</h1>
     <h2 className='careerstitle'>Excellerent Centers Across US, Ethiopia & India </h2>

@@ -1,9 +1,6 @@
 import React from 'react'
 import {motion} from "framer-motion"
-import {Link, Navigate} from "react-router-dom";
-// import pic4 from "../Images/WhatsApp-Image11.jpg"
-import AnchorLink from "react-anchor-link-smooth-scroll";
-import CAREERS from '../Careers/Careers'
+import {HashLink as Link} from "react-router-hash-link"
 const NavLinks = (props) => {
     const animateFrom = {opacity: 0, y: -40}
     const animateTo = {opacity: 1, y: 0}
@@ -12,13 +9,21 @@ const NavLinks = (props) => {
       <div className="header__options">
       
     <ul>
+    <motion.li
+        //  initial={animateFrom}
+        //  animate= {animateTo}
+        //  transiton = {{delay:0.05}}
+        
+          onClick={() => props.isMobile && props.closeMobileMenue()} >            
+             <Link to ="#home" smooth>HOME</Link>
+            </motion.li>
          <motion.li
         //  initial={animateFrom}
         //  animate= {animateTo}
         //  transiton = {{delay:0.05}}
         
           onClick={() => props.isMobile && props.closeMobileMenue()} >            
-             <Link to ="/about">ABOUT US</Link>
+             <Link to ="#about" smooth>ABOUT US</Link>
             </motion.li>
 
          <motion.li 
@@ -26,8 +31,8 @@ const NavLinks = (props) => {
         //  initial={animateFrom}
         //  animate= {animateTo}
          onClick={() => props.isMobile && props.closeMobileMenue()}>
-           {/* <Link to ="/services">SERVICES</Link> */}
-           <a href="/services">SERVICES</a>
+          
+           <Link to ="#services" smooth>SERVICES</Link>
            </motion.li>
        
 
@@ -35,16 +40,25 @@ const NavLinks = (props) => {
           //  initial={animateFrom}
           //  animate= {animateTo}
           //  transiton = {{delay:0.20}}
-           onClick={() => props.isMobile && props.closeMobileMenue()}> <a href="/resources">RESOURCES</a></motion.li>
+           onClick={() => props.isMobile && props.closeMobileMenue()}>
+            <Link to ="#careers" smooth>CAREERS</Link>
+             </motion.li>
+             
 
            <motion.li
           //  initial={animateFrom}
           //  animate= {animateTo}
           //  transiton = {{delay:0.30}}
-            onClick={() => props.isMobile && props.closeMobileMenue()}><AnchorLink href='#careers'> CAREERS</AnchorLink></motion.li>
-           <motion.li onClick={() => props.isMobile && props.closeMobileMenue()}><a href="/contactUs">CONTACT US</a> </motion.li>
+            onClick={() => props.isMobile && props.closeMobileMenue()}>
+             
+              <Link to ="#withus" smooth>WORKING WITH US</Link>
+              </motion.li>
+           <motion.li onClick={() => props.isMobile && props.closeMobileMenue()}>
+            <Link to ="#contactus" smooth>CONTACT US</Link>
+             </motion.li>
        </ul>
        </div>
+      
        </div>
     
   )

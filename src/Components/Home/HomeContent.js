@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link, Navigate} from "react-router-dom";
+import {HashLink as Link} from "react-router-hash-link"
 
 import "./homeContent.css"
 function HomeContent(props) {

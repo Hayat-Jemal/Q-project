@@ -1,10 +1,9 @@
 .withUs {
     width: 100%;
     height: auto;
-    padding: 35px;
+    padding: 80px 35px 0;
     position: relative;
     background-color: #eff2f5;
-    align-items: left;
 }
 
 .withUs > h1 {
@@ -18,9 +17,6 @@
     color: #00A551;
 }
 
-.withUsContainer  {
-  
-}
 
 .withUsTitle {
     font-size: 1.2em;

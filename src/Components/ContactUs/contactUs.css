@@ -1,8 +1,10 @@
-
+.contactUs {
+padding-top: 0px;
+}
 .container >h2 {
     font-size: 40px;
     font-weight: 700;
-    padding-top: 20px;
+    padding-top: 80px;
 }
 .mb-3{
     font-size: 25px;

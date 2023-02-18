@@ -10,7 +10,8 @@
 }
 
 .homeContent > h1 {
-    color: #00A551;
+    color: blue;
+    /* color: #00A551; */
     font-size: 30px;
     font-weight: 400;
     letter-spacing: normal;

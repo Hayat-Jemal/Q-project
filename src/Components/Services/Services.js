@@ -6,7 +6,7 @@ import img1 from "../Images/managed-services.svg"
 
 function Services() {
   return (
-    <div className='services'>
+    <div className='services' id="services">
         <div className='servicesTitlewrapper'>
            <h1>A Wide Range of </h1>
             <p>Service & Solutions</p>

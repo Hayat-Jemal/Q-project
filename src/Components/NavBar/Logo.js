@@ -1,11 +1,11 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import pic4 from "../Images/WhatsApp-Image11.jpg"
+import {HashLink as Link} from "react-router-hash-link"
 import "./logo.css"
 
 function Logo() {
   return (
-    <Link to="/">  
+    <Link to="#home" smooth>  
     <div className='logo'> 
         <img src={pic4}/> 
     </div>

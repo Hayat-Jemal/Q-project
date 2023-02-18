@@ -8,7 +8,7 @@ import HomeContent from './HomeContent'
 
 function Home() {
     return (
-    <div className='home'>
+    <div className='home' id="home">
         <Carousel pause={false} indicators={false} fade={true}  style={{zIndex:"-1"}}>
           <Carousel.Item interval={4000}>
             <img  
