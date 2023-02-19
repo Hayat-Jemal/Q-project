@@ -18,6 +18,7 @@
     .NavBar .Navigation {
         display: none;
     }
+   
 
     .NavBar .MobileNavigation {
         display: flex;
@@ -42,11 +43,7 @@
         border-top: 2px solid green;
         z-index: 1;
     }
-    .NavBar nav ul li {
-        /* padding-left: 15%; */
-   
-       
-    }
+    
     .NavBar nav ul li a {
         color: black;
         list-style: none;

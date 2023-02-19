@@ -5,13 +5,12 @@
     padding: 20px;
     background-color: rgba(255,252,252,0.66);
     border-radius: 4px 4px 4px 4px;
-    /* margin-right: 300px; */
     margin-bottom: 100px;
 }
 
 .homeContent > h1 {
-    color: blue;
-    /* color: #00A551; */
+    /* color: blue; */
+    color: #00A551;
     font-size: 30px;
     font-weight: 400;
     letter-spacing: normal;

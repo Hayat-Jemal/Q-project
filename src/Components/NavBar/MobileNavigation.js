@@ -7,7 +7,7 @@ import {GrClose} from 'react-icons/gr'
 const MobileNavigation = () => {
     const [open, setOpen] = useState(false)
 
-    const hamburgerIcon = <FiMenu className={classes.Humburger} size='30px' color= 'green'
+    const hamburgerIcon = <FiMenu className={classes.Humburger} size='30px' color= 'green;'
     onClick={() => setOpen(!open)} />
 
     const closeIcon =  <GrClose className={classes.Humburger} size='30px' color= 'green'
