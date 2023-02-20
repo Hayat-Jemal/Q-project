@@ -3,15 +3,6 @@ import ReactDom from "react-dom";
 import './App.css';
 import Home from './Components/Home/Home';
 import NavBar from './Components/NavBar/NavBar';
-// import {HashLink as Link} from "react-router-hash-link"
-import {
-  BrowserRouter as Router,
-  Switch,
-  Routes,
-  Route,
-  Redirect,
-  Link,Navigate
-} from "react-router-dom"
 import About from './Components/About/About';
 // import Clients from './Components/Clients/Clients';
 import Services from './Components/Services/Services';

@@ -1,12 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {motion} from "framer-motion"
 import {HashLink as Link} from "react-router-hash-link"
 const NavLinks = (props) => {
     const animateFrom = {opacity: 0, y: -40}
     const animateTo = {opacity: 1, y: 0}
+    
   return (
-    <div className="header">
-      <div className="header__options">
+    <div className="header" >
+      <div className="header__options" >
       
     <ul>
     <motion.li
@@ -14,7 +15,8 @@ const NavLinks = (props) => {
         //  animate= {animateTo}
         //  transiton = {{delay:0.05}}
         
-          onClick={() => props.isMobile && props.closeMobileMenue()} >            
+          onClick={() => props.isMobile && props.closeMobileMenue()} 
+          >            
              <Link to ="#home" smooth>HOME</Link>
             </motion.li>
          <motion.li
@@ -23,7 +25,7 @@ const NavLinks = (props) => {
         //  transiton = {{delay:0.05}}
         
           onClick={() => props.isMobile && props.closeMobileMenue()} >            
-             <Link to ="#about" smooth>ABOUT US</Link>
+             <Link to ="#about" smooth >ABOUT US</Link>
             </motion.li>
 
          <motion.li 

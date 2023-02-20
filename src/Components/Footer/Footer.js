@@ -34,15 +34,15 @@ function Footer() {
         </div>
         </div>
         <div className='footerIcons'>
-            <Link to="https://www.linkedin.com/in/hayat-jemal/"><BsLinkedin  className='icon'/></Link>
+        <a href="https://linkedin.com/in/hayat-jemal" target="_blank"><BsLinkedin  className='icon'/></a>
+        <a href="https://linkedin.com/in/hayat-jemal" target="_blank"><ImFacebook2  className='icon'/></a>
+        <a href="https://linkedin.com/in/hayat-jemal" target="_blank"><FaInstagramSquare className='icon'/></a>
+
+        {/* <Link to={{ pathname: "https://linkedin.com/in/hayat-jemal" }} target="_blank"><BsLinkedin  className='icon'/></Link>
             <Link to="contactUs"><ImFacebook2  className='icon'/></Link>
             <Link to="contactUs"><FaTelegramPlane className='icon'/></Link>
-            <Link to="contactUs"><FaInstagramSquare className='icon'/></Link>
-           
-           
-          
+            <Link to="contactUs"><FaInstagramSquare className='icon'/></Link> */}
             
-    
         </div>
         <div className='footerCopyright'>
             <p>Copyright Ⓒ All rights reserved | Developed by Hayat</p>

@@ -30,8 +30,9 @@
         position: absolute;
         right: 5%;
         cursor: pointer;
+        color: green;
     }
-    .NavBar nav ul {
+    .NavBar ul {
         display: flex;
         flex-direction: column;
         position: absolute;
@@ -44,7 +45,7 @@
         z-index: 1;
     }
     
-    .NavBar nav ul li a {
+    .NavBar ul li a {
         color: black;
         list-style: none;
         text-decoration: none;
