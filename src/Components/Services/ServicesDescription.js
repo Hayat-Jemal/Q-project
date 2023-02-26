@@ -1,10 +1,13 @@
 import React from 'react'
+import {motion} from "framer-motion"
 import "./servicesDescription.css"
 function ServicesDescription({img,title,descriptionTitle,description}) {
   return (
     <div className='ServicesDescription'> 
       <div className="parent">
-      <img src={img} alt="" />
+      <motion.img src={img} alt=""
+      whileHover={{scale: 1.3, y: 100}}
+      />
         <p className='servicesTitle'>{title}</p>
       <div className="cover"> 
        <p className='coverP1'>{descriptionTitle}</p>

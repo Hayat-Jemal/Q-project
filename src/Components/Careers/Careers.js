@@ -1,6 +1,6 @@
 import React from 'react'
 import "./careers.css"
-import image1 from "../Images/WhatsApp Image3.jpg"
+import image1 from "../Images/quran2.png"
 function Careers() {
   return (
     <div className='careers' id="careers">
@@ -21,10 +21,10 @@ function Careers() {
         <img src={image1} alt="" />
         <img src={image1} alt="" />
         </div>
-        <div className='Images'>
+        {/* <div className='Images'>
         <img src={image1} alt="" />
         <img src={image1} alt="" />
-        </div>
+        </div> */}
     </div>
     
 </div>

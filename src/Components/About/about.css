@@ -37,12 +37,26 @@
     align-items: center;
 
 }
+/* @keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .aboutContainer {
+    animation: 0.5s ease-out 0s 1 slideInLeft;
+   
+  } */
 
 @media (min-width: 990px) {
     .about {
         display: flex;
         justify-content: space-between;
-        flex-direction: row-reverse;
+        /* flex-direction: row-reverse; */
 
 
     }

@@ -4,7 +4,7 @@ import './App.css';
 import Home from './Components/Home/Home';
 import NavBar from './Components/NavBar/NavBar';
 import About from './Components/About/About';
-// import Clients from './Components/Clients/Clients';
+import Clients from './Components/Clients/Clients';
 import Services from './Components/Services/Services';
 import Careers from './Components/Careers/Careers';
 import ContactUs from './Components/ContactUs/ContactUs';
@@ -18,7 +18,7 @@ function App() {
       <NavBar />
       <Home/>
       <About />
-      {/* <Clients/> */}
+      <Clients/>
       <Services />
       <Careers />
       <WithUs />

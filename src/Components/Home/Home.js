@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import Carousel from 'react-bootstrap/Carousel'
-import pic1 from "../Images/WhatsAppImage2.jpg"
-import pic2 from "../Images/WhatsApp-Image.jpg"
-import pic3 from "../Images/WhatsApp-Image10.jpg"
+import pic1 from "../Images/chidreadQran.jpg"
+import pic2 from "../Images/chidrenQran2.jpeg"
+import pic3 from "../Images/peopleReadingQuran.jpeg"
 import  "./home.css"
 import HomeContent from './HomeContent'
 

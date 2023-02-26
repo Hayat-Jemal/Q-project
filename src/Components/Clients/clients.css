@@ -11,10 +11,14 @@
     font-size: 45px;
     font-weight: 400;
     line-height: 50px;
-    color:  #18191F;
+    color: white;
     margin: 16px 0;
 
 }
+.video__wrapper{
+    margin-top: 40px;
+}
+
 
 .clientsTitlewrapper > h2 {
     font-size:45px;
@@ -29,5 +33,9 @@
 @media (min-width: 990px) {
     .clientsTitlewrapper > p  {
     padding: 0 200px;
+}
+.video__wrapper {
+    display: flex;
+    justify-content: space-around;
 }
 }

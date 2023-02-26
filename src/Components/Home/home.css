@@ -1,18 +1,22 @@
 .home {
-   display: block;
+   /* display: block; */
   margin-top: 70px;
-   
+  max-width: 1500px;
 }
+.homeContent {
+  top: 0%;
+  z-index: 1;
 
+}
 .d-block {
     /* object-fit: contain; */
-    
+    /* max-width: 1500px; */
+    /* margin-bottom: -250px; */
      height: 700px; 
      max-width: 100%;
-    background-position: center center;
-    background-size: contain;
+    background-position: center;
+    background-size: cover;
     box-sizing: border-box;
     background-repeat: no-repeat;
-   
-    
+    z-index: -1;
 }
