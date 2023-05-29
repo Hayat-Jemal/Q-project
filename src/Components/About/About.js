@@ -43,7 +43,7 @@ import image1 from "../Images/quran.jpg"
 import "./about.css"
 const squareVariants = {
   
-  visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
+  visible: { opacity: 1, scale: 1, transition: { duration: 1.3} },
   hidden: { opacity: 0, scale: 0 }
 };
 function About() {

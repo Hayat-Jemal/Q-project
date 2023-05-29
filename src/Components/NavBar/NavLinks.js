@@ -9,11 +9,18 @@ const NavLinks = (props) => {
       <div className="header__options" >
       
     <ul>
-       <li
+       {/* <li
+          onClick={() => props.isMobile && props.closeMobileMenue()} 
+          >            
+             <Link to ="#home" smooth>HOME</Link>
+            </li> */}
+          <li
           onClick={() => props.isMobile && props.closeMobileMenue()} 
           >            
              <Link to ="#home" smooth>HOME</Link>
             </li>
+           
+
          <li
           onClick={() => props.isMobile && props.closeMobileMenue()} >            
              <Link to ="#about" smooth >ABOUT US</Link>
